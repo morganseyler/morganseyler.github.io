@@ -1,16 +1,24 @@
 ﻿body {
     font-family: Arial;
-    background-color: lightcoral;
+    background-color: darkslategrey;
 }
 h1 {
     text-align: center;
     font-size: 300%;
-
     font-weight: bold;
+}
+h3 {
+    text-align: center;
+    font-size: 175%;
+    font-weight: bold;
+    font-style:
 }
 #name {
     background: white;
-    box-shadow: black -10px 15px;
+    color:dodgerblue;
+}
+.Heading {
+    padding: 2px 16px;
 }
 
 /* Style the tab */
