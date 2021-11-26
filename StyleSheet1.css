@@ -1,5 +1,10 @@
 ﻿body {
     font-family: Arial;
+    background-color: lightcoral;
+}
+h1 {
+    text-align: center;
+    font-size: 300%;
 }
 
 /* Style the tab */
@@ -7,6 +12,7 @@
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
+    align-content: center;
 }
 
     /* Style the buttons inside the tab */
@@ -18,7 +24,7 @@
         cursor: pointer;
         padding: 14px 16px;
         transition: 0.3s;
-        font-size: 17px;
+        font-size: 24px;
     }
 
         /* Change background color of buttons on hover */
