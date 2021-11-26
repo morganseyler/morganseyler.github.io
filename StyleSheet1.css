@@ -13,12 +13,13 @@ h1 {
     border: 1px solid #ccc;
     background-color: #f1f1f1;
     align-content: center;
+
 }
 
     /* Style the buttons inside the tab */
     .tab button {
         background-color: inherit;
-        float: left;
+        float: none;
         border: none;
         outline: none;
         cursor: pointer;
@@ -43,4 +44,13 @@ h1 {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+}
+
+.box1 {
+    float: left;
+    transition: 0.3s;
+    display: inline-block;
+    width: 25%;
+    height: 500px;
+    background-color: antiquewhite;
 }
