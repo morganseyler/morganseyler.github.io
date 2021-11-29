@@ -16,26 +16,68 @@
         <button class="tablinks" onclick="openTab(event, 'Skill sets')">Skill sets</button>
     </div>
 
-    <div id="Home" class="tabcontent">
-        <h3 style="color:dodgerblue">Home</h3>
+    <div id="Home" class="tabcontent" style="display:block">
+        <h3 style="color:black">Home</h3>
+        <div class="box1" id="picture">
+            <h2>Professional Photo</h2>
+            <img src="https://d4sjo25z9q3iq.cloudfront.net/images/2020/12/14/Seyler_Morgan.jpg?width=80">
+        </div>
+        <div class="box1" id="introduction">
+            <h2>Introduction</h2>
+            <p>
+                Hello and welcome to my personal website. My name is Morgan Seyler and currently I am enrolled at the University of Oklahoma pursuing my undergraduate degree in Management Information Systems.
+                My website contains an about page with general information over who I am, a projects page to display my current and past projects completed through college, and a skill sets page to demonstrate all my potential skills I can bring to a business.
+            </p>
+        </div>
+        <div class="box1" id="purpose">
+            <h2>Purpose</h2>
+            <p>
+                The purpose of this website is to act as a digital portfolio/resume for Morgan Seyler. This website contains detailed information and tangible examples
+                of what I can bring to potential future employers.
+            </p>
+        </div>
+
+    </div>
+    <div id="About" class="tabcontent" style="display:none">
+        <h3 style="color:black">About</h3>
+        <div class="box1" id="about">
+            <p>
+                About me: I was borned and raised in Flower Mound, Texas. I am the oldest of 4 siblings and my parents are Mark and Missy Seyler. For most of my life I have participated in competitive gymnastics
+                with a dream of competing on a college gymnastics team. Both of my parents were collegiate gymnastics at the University of Oklahoma which drove me to ultimately making the decision to attend OU in 2018. I achieved a
+                spot on the roster which I have been on since. Currently I am a senior and was chosen at the beginning of the 2021 school year to be a captain of the gymnastics team. I plan to finish my undergraduate degree
+                in Management Information Systems in fall of 2022.
+            </p>
+        </div>
         <div class="box1">
-            <img src="https://media.giphy.com/media/kiBcwEXegBTACmVOnE/giphy.gif" style="width:90%" height="90%">
-            <p>Place holder</p>
+            <img src="https://www.gannett-cdn.com/presto/2021/04/14/NOKL/38497eea-d480-4ba4-872d-ae5a86e6895d-Morgan_Seyler_1.jpg?width=300&height=368&fit=crop&format=pjpg&auto=webp" style="margin-top:26px;">
         </div>
     </div>
+    <div id="Projects" class="tabcontent" style="display:none">
+        <h3 style="color:black">Projects</h3>
+        <div class="box1">
+            <h2>Database</h2>
+            <p>This was a group project in which we were tasked with creating a working database in SQL server for a business in the Norman, Oklahoma area. We created ERD diagrams, a complete logical design,
+            and a clear explanation as to how we made the database and how it functions.</p>
+            <h2>QR Code Generator</h2>
+            <p>For this project I used C# to create a working QR code generator. The user can put in any website they wish to output a QR code for.</p>
+            <h2>Personal Website</h2>
+            <p>This personal website was created using HTML, CSS, and Javascript.</p>
+        </div>
 
-    <div id="About" class="tabcontent">
-        <h3 style="color:dodgerblue">About</h3>
-        <p class="box1">Place holder</p>
     </div>
-
-    <div id="Projects" class="tabcontent">
-        <h3 style="color:dodgerblue">Projects</h3>
-        <p class="box1">Place holder.</p>
-    </div>
-    <div id="Skill sets" class="tabcontent">
-        <h3 style="color:dodgerblue">Skill sets</h3>
-        <p class="box1">Place holder.</p>
+    <div id="Skill sets" class="tabcontent" style="display:none">
+        <h3 style="color:black">Skill sets</h3>
+        <div class="box1">
+            <ul>
+                <li>Leadership experience: Captain of the University of Oklahoma Mens Gymnastics Team</li>
+                <h2>Programming Experience/Languages:</h2>
+                <li>Java</li>
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>C#</li>
+                <li>Github experience</li>
+            </ul>
+        </div>
     </div>
 
     <script>
@@ -53,6 +95,5 @@
             evt.currentTarget.className += " active";
         }
     </script>
-
 </body>
 </html>

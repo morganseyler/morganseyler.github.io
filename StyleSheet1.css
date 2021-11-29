@@ -1,6 +1,6 @@
 ﻿body {
-    font-family: Arial;
-    background-color: darkslategrey;
+    font-family:Garamond;
+    background-color: #a53333;
 }
 h1 {
     text-align: center;
@@ -9,28 +9,25 @@ h1 {
 }
 h3 {
     text-align: center;
-    font-size: 175%;
+    font-size: 200%;
     font-weight: bold;
-    font-style:
+    border-bottom: 2px solid black;
 }
 #name {
-    background: gray;
-    color:dodgerblue;
+
+    color:black;
 }
 .Heading {
     padding: 2px 16px;
 }
 
-/* Style the tab */
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    border: 2px solid maroon;
+    background-color: whitesmoke;
     align-content: center;
-
 }
 
-    /* Style the buttons inside the tab */
     .tab button {
         background-color: inherit;
         float: none;
@@ -42,21 +39,17 @@ h3 {
         font-size: 24px;
     }
 
-        /* Change background color of buttons on hover */
         .tab button:hover {
             background-color: #ddd;
         }
 
-        /* Create an active/current tablink class */
         .tab button.active {
             background-color: #ccc;
         }
 
-/* Style the tab content */
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
     border-top: none;
 }
 
@@ -64,7 +57,47 @@ h3 {
     float: left;
     transition: 0.3s;
     display: inline-block;
-    width: 25%;
+    width: 31%;
+    height: inherit;
+    background-color: whitesmoke;
+    margin: 12px 12px;
+    align-content: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: maroon;
+}
+.box2 {
+    float: left;
+    transition: 0.3s;
+    display: inline-block;
+    width: 31.5%;
     height: 500px;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
+    margin: 12px 12px;
+    align-content: center;
+}
+
+img {
+    padding: 2%;
+    margin: 140px;
+    margin-top: -10px;
+    margin-bottom:inherit;
+    background-color: #a53333;
+    width: 30%;
+    border-bottom: 2px solid black;
+    height: 30%;
+}
+h2 {
+    margin-left:20px;
+    margin-right:20px;
+    border-bottom:2px solid black;
+}
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid black;
+    font-size: 120%;
+    margin-bottom: 20px;
+    color: darkslategrey;
+
 }
